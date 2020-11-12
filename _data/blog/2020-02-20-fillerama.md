@@ -3,6 +3,7 @@ template: BlogPost
 path: /best-practices-storybook
 date: 2020-01-09T14:59:36.571Z
 title: Best Practices Storybook
+titulo: Mejores prácticas de Storybook
 metaDescription: >-
   Storybook is a user interface development environment and playground for UI
   components. The tool enables developers to create components independently and
