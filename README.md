@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aaa1e6fb-d1a4-4d13-9459-c0cb3c54e156/deploy-status)](https://app.netlify.com/sites/nextsteps-cms/deploys) &nbsp;<a href="https://twitter.com/intent/follow?screen_name=martinrojas">
-<img src="https://img.shields.io/twitter/follow/w3layouts.svg?label=Follow%20@martinrojas" alt="Follow @martinrojas" />
+<img src="https://img.shields.io/twitter/follow/martinrojas.svg?label=Follow%20@martinrojas" alt="Follow @martinrojas" />
 </a>
 
 # Delog - Blog for Developer and Designer
