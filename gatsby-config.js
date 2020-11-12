@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-fullstory`,
       options: {
-        fs_org: BPGDE,
+        fs_org: "BPGDE",
       },
     },
     {
