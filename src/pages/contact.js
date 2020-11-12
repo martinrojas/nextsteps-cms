@@ -1,25 +1,41 @@
-import React from "react"
-import Helmet from "react-helmet"
-import { graphql } from 'gatsby'
-import Layout from "../components/layout"
+import React from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
 
-const ContactPage = ({
-  data: {
-    site
-  },
-}) => {
+const ContactPage = ({ data: { site } }) => {
   return (
     <Layout>
       <Helmet>
         <title>Contact — {site.siteMetadata.title}</title>
-        <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
+        <meta
+          name='description'
+          content={"Contact page of " + site.siteMetadata.description}
+        />
       </Helmet>
-      <div className="two-grids -contact">
-        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+      <div className='two-grids -contact'>
+        <div
+          className='post-thumbnail'
+          style={{
+            backgroundImage: `url('/assets/write-593333_640.jpg')`,
+            marginBottom: 0,
+          }}
+        >
+          <h1 className='post-title'>Get in Touch</h1>
+          <p>
+            find me on Twitter at
+            <a
+              href='https://twitter.com/martinrojas?ref_src=twsrc%5Etfw'
+              class='twitter-follow-button'
+              data-size='large'
+              data-show-count='false'
+            >
+              @martinrojas
+            </a>
+          </p>
         </div>
-        <div>
+
+        {/* <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
             <div>
               <label htmlFor="w3lName">Name</label>
@@ -41,14 +57,14 @@ const ContactPage = ({
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </Layout>
-  )
-}
-export default ContactPage
+  );
+};
+export default ContactPage;
 export const pageQuery = graphql`
-  query ContactPageQuery{
+  query ContactPageQuery {
     site {
       siteMetadata {
         title
@@ -56,4 +72,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

@@ -52,11 +52,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `NextSteps.dev`,
+        short_name: `NextSteps`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#381696`,
+        theme_color: `#44af69`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
