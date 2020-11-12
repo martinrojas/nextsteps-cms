@@ -6,7 +6,7 @@ title: Using ApolloClient in a real project
 metaDescription: >-
   If you have been using ApolloClient in your projects, you have probably
   started using their "apollo-boost" package.
-thumbnail: /assets/image-5.jpg
+thumbnail: /assets/image-7.jpg
 ---
 If you have been using ApolloClient in your projects, you have probably started using their *"apollo-boost"* package. And for starting this is the right approach, but the limitations of that setup appear very quickly when working on a production application. Something as simple as using a graphQL server that requires authentication causes a steep learning curve into the inner workings of ApolloClient. My goal is to point out some of the stumbling blocks I have been encountering and the links to the solutions or articles that helped me.
 
