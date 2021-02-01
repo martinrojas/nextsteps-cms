@@ -3,7 +3,6 @@ template: BlogPost
 path: /best-practices-storybook
 date: 2020-01-09T14:59:36.571Z
 title: Best Practices Storybook
-titulo: Mejores prácticas de Storybook
 metaDescription: >-
   Storybook is a user interface development environment and playground for UI
   components. The tool enables developers to create components independently and
@@ -12,6 +11,7 @@ metaDescription: >-
   isolation without worrying about app-specific dependencies and requirements.
 thumbnail: /assets/image-5.jpg
 ---
+
 Storybook is a user interface development environment and playground for UI components. The tool enables developers to create components independently and showcase components interactively in an isolated development environment. Storybook runs outside of the main app so users can develop UI components in isolation without worrying about app-specific dependencies and requirements.
 
 <video autoplay="" muted="" loop="" playsinline="" alt="Storybook video" style="width:100%">
@@ -32,12 +32,12 @@ import React from "react";
 
 export default {
   title: "atoms|Button",
-  decorators: [withKnobs]
+  decorators: [withKnobs],
 };
 
 export const containedButton = () => (
   <Button
-    variant="contained"
+    variant='contained'
     color={select("color", ["primary", "secondary"], "primary")}
     size={select("size", ["small", "medium", "large"], "large")}
   >
@@ -47,7 +47,7 @@ export const containedButton = () => (
 
 export const outlinedButton = () => (
   <Button
-    variant="outlined"
+    variant='outlined'
     color={select("color", ["primary", "secondary"], "primary")}
     size={select("size", ["small", "medium", "large"], "large")}
   >
@@ -69,13 +69,13 @@ import { MyComponent } from "../MyComponent";
 
 export default {
   title: "Atom|MyComponent",
-  decorators: [withKnobs]
+  decorators: [withKnobs],
 };
 
 export const Basic = () => <MyComponent />;
 export const WithProp = () => (
   <MyComponent
-    variant="contained"
+    variant='contained'
     color={select("color", ["primary", "secondary"], "primary")}
     size={select("size", ["small", "medium", "large"], "large")}
   />

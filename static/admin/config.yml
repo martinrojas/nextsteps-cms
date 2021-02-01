@@ -56,7 +56,6 @@ collections:
         hint: "Path must start with /"
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: titulo, label: Titulo }
       - label: Meta Description
         name: metaDescription
         widget: text
