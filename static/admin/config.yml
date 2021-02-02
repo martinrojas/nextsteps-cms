@@ -48,7 +48,12 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
-      - { label: Template, name: template, widget: hidden, default: BlogPost }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: BlogPost,
+        }
       - name: path
         label: Path
         widget: string
